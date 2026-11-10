@@ -1,6 +1,6 @@
 // 離線快取：第一次連網開啟後，之後沒有網路也能使用。
 // 有網路時會在背景抓新版，下次開啟就是新版。
-const CACHE = 'lt-interim-202611101342';
+const CACHE = 'lt-interim-202611101540';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './icon-180.png'];
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(FILES)).then(() => self.skipWaiting()));
