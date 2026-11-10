@@ -1,0 +1,33 @@
+# ===== 排除清單：以下檔案不會被存檔，也不會上傳到 GitHub =====
+# 這個空間是公開的，只放工具成品
+
+# 金鑰、密碼、憑證類
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*secret*
+*Secret*
+*credential*
+*Credential*
+*token*
+*password*
+id_rsa*
+
+# 文件、證書與量測紀錄（一律不放公開空間）
+*.pdf
+*.docx
+*.xlsx
+*.csv
+*.json
+records/
+*查核紀錄*
+
+# 系統暫存檔
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
