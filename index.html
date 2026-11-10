@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="追蹤儀查核">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
 <link rel="apple-touch-icon" href="icon-180.png">
 <link rel="icon" href="icon-192.png">
 <style>:root{--bg:#eef2f6;--card:#fff;--ink:#12202e;--mut:#5b6773;--line:#d5dde5;--pri:#1f5fbf;--ok:#1a9c5b;--warn:#b98400;--bad:#d43c3c;--okb:#e5f6ed;--warnb:#fdf3d6;--badb:#fde8e6}
@@ -188,7 +188,6 @@ label.chk.all{background:#eef4fb;border-radius:8px;padding:10px;margin-top:8px;b
 .toast.bad{background:#a32620}
 main{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 nav#tabs{top:env(safe-area-inset-top,0px)}
-body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:#12202e}
 :root{color-scheme:light}
 body.repfile{background:#fff}
 body.repfile main{max-width:1000px}
@@ -337,6 +336,7 @@ header.top{padding-top:calc(12px + env(safe-area-inset-top,0px))}
 input[type=date]{-webkit-appearance:none;appearance:none;display:block;box-sizing:border-box;min-width:0;max-width:100%;width:100%;text-align:left;line-height:1.2;overflow:hidden}
 input[type=date]::-webkit-date-and-time-value{text-align:left;min-height:1.2em;margin:0}
 input[type=date]::-webkit-datetime-edit{padding:0}
+html{background:#12202e}
 </style>
 </head>
 <body>
